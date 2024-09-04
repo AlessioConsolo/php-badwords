@@ -14,7 +14,9 @@
     <?php 
         echo "Paragrafo originale: $paragrafo";
         echo "<br>Lunghezza del paragrafo: " . strlen($paragrafo) . " caratteri";
-        
+        $paragrafo_censurato = str_replace($parola_da_censurare, "***", $paragrafo);
+        echo "<br><br>Paragrafo censurato: $paragrafo_censurato";
+        echo "<br>Lunghezza del paragrafo censurato: " . strlen($paragrafo_censurato) . " caratteri";
     ?>
 </body>
 </html>
