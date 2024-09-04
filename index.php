@@ -7,8 +7,10 @@
 </head>
 <body>
     <form action="secondpage.php" method="post">
-        <input type="text" name="name" id="" placeholder="Nome">
-        <input type="text" name="cognome" id="" placeholder="Cognome">
+        <label for="paragrafo">Paragrafo:</label>
+        <textarea name="paragrafo" id="paragrafo" cols="30" rows="5"></textarea> <br>
+        <label for="parola_da_censurare">Parola da censurare:</label>
+        <input type="text" name="parola_da_censurare" id="parola_da_censurare">
         <input type="submit" value="Invia">
     </form>
 </body>
